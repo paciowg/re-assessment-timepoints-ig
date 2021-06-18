@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.FHIR.US.PACIO-RAT\Timepoint_BasedOn - FHIR v4.0.1</title>
+    <title>HL7.FHIR.US.PACIO-RAT\Timepoint Status Value Set - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3.2"}
-    h3,h4,h5,h6{--heading-prefix:"3.2"}</style>
+    <style type="text/css">h2{--heading-prefix:"3.4"}
+    h3,h4,h5,h6{--heading-prefix:"3.4"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -96,16 +96,7 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="artifacts.html#3">Profiles</a>
-      </li>
-      <li>
-        <a href="artifacts.html#4">Extensions</a>
-      </li>
-      <li>
-        <a href="CapabilityStatement-prat.html">Capability Statement</a>
-      </li>
-      <li>
-        <a href="artifacts.html#2">Search Parameters</a>
+        <a href="artifacts.html#1">Profiles</a>
       </li>
     </ul>
   </li>
@@ -124,7 +115,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Timepoint_BasedOn</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Timepoint Status Value Set</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -138,7 +129,6 @@
 
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">PACIO Re-Assessment Timepoints Implementation Guide - Local Development build (v0.1.0). See the <a href="http://hl7.org/fhir/us/pacio-rat/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-
   
 
 
@@ -155,21 +145,21 @@
 
   
     <li>
-      <a href="SearchParameter-encounter-based-on.xml.html">XML</a>
+      <a href="ValueSet-prat-status-vs.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="SearchParameter-encounter-based-on.json.html">JSON</a>
+      <a href="ValueSet-prat-status-vs.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="SearchParameter-encounter-based-on.ttl.html">TTL</a>
+      <a href="ValueSet-prat-status-vs.ttl.html">TTL</a>
     </li>
   
 
@@ -177,14 +167,32 @@
 
 </ul>
 
-
   <a name="root"> </a>
+  <h2 id="root">ValueSet: Timepoint Status Value Set</h2>
+  <p>
+    <b>Summary</b>
+  </p>
+  <table class="grid">
+<tbody>
+<tr><td>Defining URL:</td><td>http://hl7.org/fhir/us/pacio-rat/ValueSet/prat-status-vs</td></tr>
+ <tr><td>Version:</td><td>0.1.0</td></tr>
+ <tr><td>Name:</td><td>TimepointStatusValueSet</td></tr>
+ <tr><td>Title:</td><td>Timepoint Status Value Set</td></tr>
+ <tr><td>Status:</td><td>Active as of 2021-06-18T14:33:43-07:00</td></tr>
+ <tr><td>Definition:</td><td><p>Codes for the current state of the re-assessment timepoint.</p>
+</td></tr>
+ <tr><td>Publisher:</td><td>HL7 Community-Based Care and Privacy Working Group</td></tr>
+ <tr><td>Source Resource:</td><td><a href="ValueSet-prat-status-vs.xml.html">XML</a> / <a href="ValueSet-prat-status-vs.json.html">JSON</a> / <a href="ValueSet-prat-status-vs.ttl.html">Turtle</a></td></tr>
+</tbody></table>
 
 
-  <h2 id="root">SearchParameter: Timepoint_BasedOn</h2>
-
-
+  <p>
+    <b>References</b>
+  </p>
   
+<ul>
+ <li><a href="StructureDefinition-prat-encounter.html">PACIO Re-assessment Timepoints Encounter Profile</a></li>
+</ul>
 
 
   <!-- insert intro if present -->
@@ -192,12 +200,56 @@
 
 
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><p><b>url</b>: <code>http://hl7.org/fhir/us/pacio-rat/SearchParameter/encounter-based-on</code></p><p><b>version</b>: 0.1.0</p><p><b>name</b>: Timepoint_BasedOn</p><p><b>status</b>: active</p><p><b>date</b>: Jun 17, 2021, 9:59:48 PM</p><p><b>publisher</b>: HL7 Community-Based Care and Privacy Working Group</p><p><b>contact</b>: HL7 Community-Based Care and Privacy Working Group: <a href="http://www.hl7.org/Special/committees/patientempowerment/index.cfm">http://www.hl7.org/Special/committees/patientempowerment/index.cfm</a>,<a href="mailto:patients@lists.HL7.org">patients@lists.HL7.org</a></p><p><b>description</b>: The ClinicalImpression or ServiceRequest that initiated this timepoint</p><p><b>jurisdiction</b>: <span title="Codes: {urn:iso:std:iso:3166 US}">United States of America</span></p><p><b>code</b>: based-on</p><p><b>base</b>: Encounter</p><p><b>type</b>: reference</p><p><b>expression</b>: Encounter.basedOn | Encounter.basedOn.extension.where(url='http://hl7.org/fhir/us/pacio-rat/StructureDefinition/clinicalImpression').valueReference</p><p><b>target</b>: ServiceRequest, ClinicalImpression</p></div>
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://hl7.org/fhir/R4/codesystem-encounter-status.html"><code>http://hl7.org/fhir/encounter-status</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-encounter-status.html#encounter-status-in-progress">in-progress</a></td><td>In Progress</td><td>The Encounter has begun and the patient is present / the practitioner and the patient are meeting.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-encounter-status.html#encounter-status-finished">finished</a></td><td>Finished</td><td>The Encounter has ended.</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-encounter-status.html#encounter-status-planned">planned</a></td><td>Planned</td><td>The Encounter has not yet started.</td></tr></table></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 3 concepts</p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="http://hl7.org/fhir/R4/codesystem-encounter-status.html">EncounterStatus v4.0.1 (CodeSystem)</a></p><p>All codes from system <a href="http://hl7.org/fhir/R4/codesystem-encounter-status.html"><code>http://hl7.org/fhir/encounter-status</code></a></p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-encounter-status-in-progress"> </a><a href="http://hl7.org/fhir/R4/codesystem-encounter-status.html#encounter-status-in-progress">in-progress</a></td><td>In Progress</td><td>The Encounter has begun and the patient is present / the practitioner and the patient are meeting.</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-encounter-status-finished"> </a><a href="http://hl7.org/fhir/R4/codesystem-encounter-status.html#encounter-status-finished">finished</a></td><td>Finished</td><td>The Encounter has ended.</td></tr><tr><td style="white-space:nowrap"><a name="http---hl7.org-fhir-encounter-status-planned"> </a><a href="http://hl7.org/fhir/R4/codesystem-encounter-status.html#encounter-status-planned">planned</a></td><td>Planned</td><td>The Encounter has not yet started.</td></tr></table></div>
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>Source</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
 
   <!-- insert notes if present -->
   
 
 
+
+  
 
 </div>
         </div>  <!-- /inner-wrapper -->
@@ -221,7 +273,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientempowerment/index.cfm">HL7 Community-Based Care and Privacy Working Group</a>.  Package hl7.fhir.us.pacio-rat#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 17, 2021 21:59-0700">2021-06-17</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientempowerment/index.cfm">HL7 Community-Based Care and Privacy Working Group</a>.  Package hl7.fhir.us.pacio-rat#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jun 18, 2021 14:33-0700">2021-06-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

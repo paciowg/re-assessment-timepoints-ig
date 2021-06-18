@@ -1,11 +1,9 @@
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>HL7.FHIR.US.PACIO-RAT\Timepoint_BasedOn - JSON Representation - FHIR v4.0.1</title>
+    <title>HL7.FHIR.US.PACIO-RAT\Timepoint Entity Code System - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3.2"}
-    h3,h4,h5,h6{--heading-prefix:"3.2"}</style>
+    <style type="text/css">h2{--heading-prefix:"3.5"}
+    h3,h4,h5,h6{--heading-prefix:"3.5"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -98,16 +96,7 @@
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="artifacts.html#3">Profiles</a>
-      </li>
-      <li>
-        <a href="artifacts.html#4">Extensions</a>
-      </li>
-      <li>
-        <a href="CapabilityStatement-prat.html">Capability Statement</a>
-      </li>
-      <li>
-        <a href="artifacts.html#2">Search Parameters</a>
+        <a href="artifacts.html#1">Profiles</a>
       </li>
     </ul>
   </li>
@@ -126,7 +115,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Timepoint_BasedOn</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Timepoint Entity Code System</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -138,9 +127,9 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">PACIO Re-Assessment Timepoints Implementation Guide - Local Development build (v0.1.0). See the <a href="http://hl7.org/fhir/us/pacio-rat/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">PACIO Re-Assessment Timepoints Implementation Guide - Local Development build (v0.1.0). See the <a href="http://hl7.org/fhir/us/pacio-rat/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
 
 
 
@@ -149,28 +138,28 @@
 
 <ul class="nav nav-tabs">
 
-  <li>
-    <a href="SearchParameter-encounter-based-on.html">Narrative Content</a>
+  <li class="active">
+    <a href="#">Narrative Content</a>
   </li>
 
 
   
     <li>
-      <a href="SearchParameter-encounter-based-on.xml.html">XML</a>
-    </li>
-  
-
-
-  
-    <li class="active">
-      <a href="#">JSON</a>
+      <a href="CodeSystem-prat-entity-cs.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="SearchParameter-encounter-based-on.ttl.html">TTL</a>
+      <a href="CodeSystem-prat-entity-cs.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-prat-entity-cs.ttl.html">TTL</a>
     </li>
   
 
@@ -178,76 +167,51 @@
 
 </ul>
 
-
-<a name="root"> </a>
-
-
-<h2 id="root">: Timepoint_BasedOn - JSON Representation</h2>
-
-<p><a href="SearchParameter-encounter-based-on.json" no-download="true">Raw json</a> | <a href="SearchParameter-encounter-based-on.json" download>Download</a></p>
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: Timepoint Entity Code System</h2>
 
   <!-- insert intro if present -->
   
 
 
 
-  <pre class="json"><code class="language-json">
-{
-  "<a href="http://hl7.org/fhir/R4/searchparameter.html#SearchParameter">resourceType</a>" : "SearchParameter",
-  "<a href="http://hl7.org/fhir/R4/searchparameter.html#SearchParameter.id">id</a>" : "encounter-based-on",
-  "<a href="http://hl7.org/fhir/R4/searchparameter.html#SearchParameter.text">text</a>" : {
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;url&lt;/b&gt;: &lt;code&gt;http://hl7.org/fhir/us/pacio-rat/SearchParameter/encounter-based-on&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;version&lt;/b&gt;: 0.1.0&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Timepoint_BasedOn&lt;/p&gt;&lt;p&gt;&lt;b&gt;status&lt;/b&gt;: active&lt;/p&gt;&lt;p&gt;&lt;b&gt;date&lt;/b&gt;: Jun 17, 2021, 9:59:48 PM&lt;/p&gt;&lt;p&gt;&lt;b&gt;publisher&lt;/b&gt;: HL7 Community-Based Care and Privacy Working Group&lt;/p&gt;&lt;p&gt;&lt;b&gt;contact&lt;/b&gt;: HL7 Community-Based Care and Privacy Working Group: &lt;a href=\&quot;http://www.hl7.org/Special/committees/patientempowerment/index.cfm\&quot;&gt;http://www.hl7.org/Special/committees/patientempowerment/index.cfm&lt;/a&gt;,&lt;a href=\&quot;mailto:patients@lists.HL7.org\&quot;&gt;patients@lists.HL7.org&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;description&lt;/b&gt;: The ClinicalImpression or ServiceRequest that initiated this timepoint&lt;/p&gt;&lt;p&gt;&lt;b&gt;jurisdiction&lt;/b&gt;: &lt;span title=\&quot;Codes: {urn:iso:std:iso:3166 US}\&quot;&gt;United States of America&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: based-on&lt;/p&gt;&lt;p&gt;&lt;b&gt;base&lt;/b&gt;: Encounter&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: reference&lt;/p&gt;&lt;p&gt;&lt;b&gt;expression&lt;/b&gt;: Encounter.basedOn | Encounter.basedOn.extension.where(url='http://hl7.org/fhir/us/pacio-rat/StructureDefinition/clinicalImpression').valueReference&lt;/p&gt;&lt;p&gt;&lt;b&gt;target&lt;/b&gt;: ServiceRequest, ClinicalImpression&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
-  },
-  "<a href="http://hl7.org/fhir/R4/searchparameter.html#SearchParameter.url">url</a>" : "http://hl7.org/fhir/us/pacio-rat/SearchParameter/encounter-based-on",
-  "<a href="http://hl7.org/fhir/R4/searchparameter.html#SearchParameter.version">version</a>" : "0.1.0",
-  "<a href="http://hl7.org/fhir/R4/searchparameter.html#SearchParameter.name">name</a>" : "Timepoint_BasedOn",
-  "<a href="http://hl7.org/fhir/R4/searchparameter.html#SearchParameter.status">status</a>" : "active",
-  "<a href="http://hl7.org/fhir/R4/searchparameter.html#SearchParameter.date">date</a>" : "2021-06-17T21:59:48-07:00",
-  "<a href="http://hl7.org/fhir/R4/searchparameter.html#SearchParameter.publisher">publisher</a>" : "HL7 Community-Based Care and Privacy Working Group",
-  "<a href="http://hl7.org/fhir/R4/searchparameter.html#SearchParameter.contact">contact</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a>" : "HL7 Community-Based Care and Privacy Working Group",
-      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
-        {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "url",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "http://www.hl7.org/Special/committees/patientempowerment/index.cfm"
-        },
-        {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "email",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "patients@lists.HL7.org"
-        }
-      ]
-    }
-  ],
-  "<a href="http://hl7.org/fhir/R4/searchparameter.html#SearchParameter.description">description</a>" : "The ClinicalImpression or ServiceRequest that initiated this timepoint",
-  "<a href="http://hl7.org/fhir/R4/searchparameter.html#SearchParameter.jurisdiction">jurisdiction</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
-        {
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "urn:iso:std:iso:3166",
-          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "US"
-        }
-      ]
-    }
-  ],
-  "<a href="http://hl7.org/fhir/R4/searchparameter.html#SearchParameter.code">code</a>" : "based-on",
-  "<a href="http://hl7.org/fhir/R4/searchparameter.html#SearchParameter.base">base</a>" : [
-    "Encounter"
-  ],
-  "<a href="http://hl7.org/fhir/R4/searchparameter.html#SearchParameter.type">type</a>" : "reference",
-  "<a href="http://hl7.org/fhir/R4/searchparameter.html#SearchParameter.expression">expression</a>" : "Encounter.basedOn | Encounter.basedOn.extension.where(url='http://hl7.org/fhir/us/pacio-rat/StructureDefinition/clinicalImpression').valueReference",
-  "<a href="http://hl7.org/fhir/R4/searchparameter.html#SearchParameter.target">target</a>" : [
-    "ServiceRequest",
-    "ClinicalImpression"
-  ]
-}</code></pre>
+  <p>
+    <b>Summary</b>
+  </p>
 
+  <table class="grid">
+<tbody>
+<tr><td>Defining URL:</td><td>http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs</td></tr>
+ <tr><td>Version:</td><td>0.1.0</td></tr>
+ <tr><td>Name:</td><td>TimepointEntityCodeSystem</td></tr>
+ <tr><td>Title:</td><td>Timepoint Entity Code System</td></tr>
+ <tr><td>Status:</td><td>Active as of 2021-06-18T14:33:43-07:00</td></tr>
+ <tr><td>Definition:</td><td><p>Codes describing various entity types for structuring timepoints</p>
+</td></tr>
+ <tr><td>Publisher:</td><td>HL7 Community-Based Care and Privacy Working Group</td></tr>
+ <tr><td>Content:</td><td>Complete: All the concepts defined by the code system are included in the code system resource</td></tr>
+ <tr><td>Source Resource:</td><td><a href="CodeSystem-prat-entity-cs.xml.html">XML</a> / <a href="CodeSystem-prat-entity-cs.json.html">JSON</a> / <a href="CodeSystem-prat-entity-cs.ttl.html">Turtle</a></td></tr>
+</tbody></table>
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul>
+ <li><a href="ValueSet-prat-entity-type-vs.html">TimepointEntityTypeValueSet</a></li>
+</ul>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://hl7.org/fhir/us/pacio-rat/CodeSystem/prat-entity-cs defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">payer<a name="prat-entity-cs-payer"> </a></td><td>Payer</td></tr><tr><td style="white-space:nowrap">regulatory-state<a name="prat-entity-cs-regulatory-state"> </a></td><td>Regulatory - State</td></tr><tr><td style="white-space:nowrap">regulatory-federal<a name="prat-entity-cs-regulatory-federal"> </a></td><td>Regulatory - Federal</td></tr><tr><td style="white-space:nowrap">provider<a name="prat-entity-cs-provider"> </a></td><td>Provider</td></tr><tr><td style="white-space:nowrap">accreditation-agency<a name="prat-entity-cs-accreditation-agency"> </a></td><td>Accreditation Agency</td></tr></table></div>
 
   <!-- insert notes if present -->
   
 
 
+
+  
 
 </div>
         </div>  <!-- /inner-wrapper -->
@@ -271,7 +235,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientempowerment/index.cfm">HL7 Community-Based Care and Privacy Working Group</a>.  Package hl7.fhir.us.pacio-rat#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 17, 2021 21:59-0700">2021-06-17</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/patientempowerment/index.cfm">HL7 Community-Based Care and Privacy Working Group</a>.  Package hl7.fhir.us.pacio-rat#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Jun 18, 2021 14:33-0700">2021-06-18</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)"></span>
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
